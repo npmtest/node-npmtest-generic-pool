@@ -1,7 +1,10 @@
-# test coverage for  [generic-pool (v3.1.7)](https://github.com/coopernurse/node-pool#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-generic-pool.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-generic-pool) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-generic-pool.svg)](https://travis-ci.org/npmtest/node-npmtest-generic-pool)
+# npmtest-generic-pool
+
+#### test coverage for  [generic-pool (v3.1.7)](https://github.com/coopernurse/node-pool#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-generic-pool.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-generic-pool) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-generic-pool.svg)](https://travis-ci.org/npmtest/node-npmtest-generic-pool)
+
 #### Generic resource pooling for Node.JS
 
-[![NPM](https://nodei.co/npm/generic-pool.png?downloads=true)](https://www.npmjs.com/package/generic-pool)
+[![NPM](https://nodei.co/npm/generic-pool.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/generic-pool)
 
 | git-branch : | [alpha](https://github.com/npmtest/node-npmtest-generic-pool/tree/alpha)|
 |--:|:--|
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-generic-pool/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-generic-pool/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-generic-pool/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-generic-pool/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-generic-pool/build/screenCapture.buildCustomOrg.browser.coverage.html.png)](https://npmtest.github.io/node-npmtest-generic-pool/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-generic-pool/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-generic-pool/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-generic-pool/build/screenCapture.buildCustomOrg.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmtest%252Fnode-npmtest-generic-pool%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-generic-pool/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-generic-pool/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-generic-pool/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-generic-pool/build/screenCapture.buildApidoc.browser.%252Fhome%252Ftravis%252Fbuild%252Fnpmdoc%252Fnode-npmdoc-generic-pool%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-generic-pool/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-generic-pool/build/test-report.html](https://npmtest.github.io/node-npmtest-generic-pool/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-generic-pool/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-generic-pool/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-generic-pool/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-generic-pool/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-generic-pool/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-generic-pool/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-generic-pool/build/screenCapture.npmPackageListing.svg)
 
@@ -27,20 +36,17 @@
 
 {
     "author": {
-        "name": "James Cooper",
-        "email": "james@bitmechanic.com"
+        "name": "James Cooper"
     },
     "bugs": {
         "url": "https://github.com/coopernurse/node-pool/issues"
     },
     "contributors": [
         {
-            "name": "James Cooper",
-            "email": "james@bitmechanic.com"
+            "name": "James Cooper"
         },
         {
             "name": "Peter Galiba",
-            "email": "poetro@poetro.hu",
             "url": "http://poetro.hu/"
         },
         {
@@ -52,35 +58,28 @@
         },
         {
             "name": "Douglas Christopher Wilson",
-            "email": "doug@somethingdoug.com",
             "url": "http://somethingdoug.com/"
         },
         {
             "name": "calibr"
         },
         {
-            "name": "Justin Robinson",
-            "email": "jrobinson@redventures.com"
+            "name": "Justin Robinson"
         },
         {
-            "name": "Nayana Hettiarachchi",
-            "email": "nayana@corp-gems.com"
+            "name": "Nayana Hettiarachchi"
         },
         {
-            "name": "Felipe Machado",
-            "email": "felipou@gmail.com"
+            "name": "Felipe Machado"
         },
         {
-            "name": "Felix Becker",
-            "email": "felix.b@outlook.com"
+            "name": "Felix Becker"
         },
         {
-            "name": "sandfox",
-            "email": "james.butler@sandfox.co.uk"
+            "name": "sandfox"
         },
         {
-            "name": "Lewis J Ellis",
-            "email": "me@lewisjellis.com"
+            "name": "Lewis J Ellis"
         }
     ],
     "dependencies": {},
@@ -111,17 +110,14 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "coopernurse",
-            "email": "james@bitmechanic.com"
+            "name": "coopernurse"
         },
         {
-            "name": "sandfox",
-            "email": "james.butler@sandfox.co.uk"
+            "name": "sandfox"
         }
     ],
     "name": "generic-pool",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+ssh://git@github.com/coopernurse/node-pool.git"
