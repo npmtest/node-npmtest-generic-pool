@@ -1,6 +1,6 @@
 # npmtest-generic-pool
 
-#### test coverage for  [generic-pool (v3.1.7)](https://github.com/coopernurse/node-pool#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-generic-pool.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-generic-pool) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-generic-pool.svg)](https://travis-ci.org/npmtest/node-npmtest-generic-pool)
+#### basic test coverage for  [generic-pool (v3.1.7)](https://github.com/coopernurse/node-pool#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-generic-pool.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-generic-pool) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-generic-pool.svg)](https://travis-ci.org/npmtest/node-npmtest-generic-pool)
 
 #### Generic resource pooling for Node.JS
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-generic-pool/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-generic-pool/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-generic-pool/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-generic-pool/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-generic-pool/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-generic-pool/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-generic-pool/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-generic-pool/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-generic-pool/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-generic-pool/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-generic-pool/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-generic-pool/build/coverage.html/index.html)
 
@@ -127,7 +127,8 @@
         "lint-fix": "eslint --fix lib test",
         "test": "tap test/*-test.js "
     },
-    "version": "3.1.7"
+    "version": "3.1.7",
+    "bin": {}
 }
 ```
 
